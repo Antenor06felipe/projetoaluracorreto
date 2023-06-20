@@ -94,10 +94,20 @@ body {
 .container__descricao {
     padding: 2em;
 }
-.dispositivos_lista{
+
+.dispositivos__lista{
     display: flex;
+    justify-content: center;
+    list-style-type:none;
+    text-align: center;
 }
 
-.dispositivo {
+.dispositivos{
     text-align: center;
+    list-style-type:none;
+}
+.dispositivos__titulos{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
 }
